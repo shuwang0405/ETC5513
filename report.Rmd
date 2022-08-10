@@ -69,8 +69,8 @@ ggplot(Data, aes(year, suicides_no, fill=age )) +
   scale_fill_brewer(palette = "Set3")+
   labs(title = "Average Suicide Number per age over the years")
 ```
-As can be seen from the Figure\@ref(fig:average-suicide-number-per-age-over-the-years), the average number of suicides in each age group is relatively stable and shows significant differences. The youngest and oldest groups had the lowest total suicides, while the 35-54 and 55-75-year-olds had the highest average suicide rates.
+Figure\@ref(fig:average-suicide-number-per-age-over-the-years), the average number of suicides in each age group is relatively stable and shows significant differences. The youngest and oldest groups had the lowest total suicides, while the 35-54 and 55-75-year-olds had the highest average suicide rates.
 
 
 # Conclusion
-All in all, probably due to other factors such as life pressures brought about by social and economic development, suicide rates have been increasing worldwide since the 21st century. The age distribution trend of the average number of suicides remained relatively stable from 1985 to 2014.@2017Suicide.
+All in all, probably due to other factors such as life pressures brought about by social and economic development, suicide rates have been increasing worldwide since the 21st century. The age distribution trend of the average number of suicides remained relatively stable from 1985 to 2014 @2017Suicide.
