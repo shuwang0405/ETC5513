@@ -19,4 +19,15 @@ library(tidyverse)
 library(rmarkdown)
 library(lubridate)
 library(countrycode)
+library(rworldmap)
+```
+
+
+# Introduction
+The suicide rate in lots of countries have been quite high for many years, including the developing and developed countries. In this study, we first investigated the distribution of suicides by age group. Studying the temporal changes in the number of suicides by age group can provide a more detailed understanding of suicide rates.
+
+```{r}
+#import the data
+Data<-read.csv('master.csv')
+Data<-Data%>%drop_na()
 ```
