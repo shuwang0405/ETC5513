@@ -41,7 +41,7 @@ Data%>%
   summarise(Suicide_Num=sum(suicides_no))%>%
   knitr::kable(caption="Suicide Number of Different Age")
 ```
-From the Table\@ref(tab:Suicide-Number-of-Different-Age), we can find that the number of suicides presents different characteristics according to different age groups. Those aged 35 to 54 had the highest number of suicides, while those aged 5-14 had the least.
+From the the Table\@ref(tab:Suicide-Number-of-Different-Age), we can find that the number of suicides presents different characteristics according to different age groups. Those aged 35 to 54 had the highest number of suicides, while those aged 5-14 had the least.
 
 # Data Visualization
 ## Temporal trends in the total number of suicides per year
@@ -56,7 +56,7 @@ Data%>%
   geom_line(color = "orange")+
   labs(title = "Suicide Number over the years")
 ```
-From Figure\@ref(fig:Suicide-Number-of-Different-Age), we can see that the number of suicides increased rapidly from 1985 to 2000, and then stabilized and fluctuated after 2000.
+From the Figure\@ref(fig:Suicide-Number-of-Different-Age), we can see that the number of suicides increased rapidly from 1985 to 2000, and then stabilized and fluctuated after 2000.
 
 
 ## Suicide Number per age over the years
@@ -69,7 +69,7 @@ ggplot(Data, aes(year, suicides_no, fill=age )) +
   scale_fill_brewer(palette = "Set3")+
   labs(title = "Average Suicide Number per age over the years")
 ```
-Figure\@ref(fig:average-suicide-number-per-age-over-the-years), the average number of suicides in each age group is relatively stable and shows significant differences. The youngest and oldest groups had the lowest total suicides, while the 35-54 and 55-75-year-olds had the highest average suicide rates.
+As can be seen from the Figure\@ref(fig:average-suicide-number-per-age-over-the-years), the average number of suicides in each age group is relatively stable and shows significant differences. The youngest and oldest groups had the lowest total suicides, while the 35-54 and 55-75-year-olds had the highest average suicide rates.
 
 
 # Conclusion
