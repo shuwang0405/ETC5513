@@ -1,0 +1,22 @@
+---
+title: "Suicides Rates Analysis"
+author: "Shu Wang"
+date: '2022-08-08'
+output:
+  html_document: default
+  pdf_document: default
+  word_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+library(httr)
+library(jsonlite)
+library(tidyverse)
+library(rmarkdown)
+library(lubridate)
+library(countrycode)
+```
